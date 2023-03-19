@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <div class="logo"><a href="/">Indexer</a></div>
+    <form id="include-form" action="validators/include.php" method="post">
+        <div class="form-holder">
+        <div class="input-holder">
+            <div class="input-name">URL</div>
+            <input id="url-js" type="text-box" placeholder="https:\\indexer.io" name="include_url" onfocusout="updatedomain()" required>
+        </div>
+        <div class="input-holder" style="width:50%;float:left;">
+            <div class="input-name">Folder</div>
+            <input type="text-box" placeholder="A.I,Block Chain" name="include_folder">
+        </div>
+        <div class="input-holder" style="width:50%;float:right;">
+            <div class="input-name">Tags</div>
+            <input type="text-box" placeholder="#internship,#news" name="include_tag">
+        </div>
+        <div class="input-holder">
+            <div class="input-name">Name</div>
+            <input type="text-box" placeholder="Indexer: Online Indexing Agent" name="include_name">
+        </div>
+        <div class="input-holder">
+            <div class="input-name">Comment</div>
+            <input type="text-box" placeholder="Found this gem through google, while visitig useful tips" name="include_comment">
+        </div>
+        <div class="input-holder">
+            <div class="input-name">Domain</div>
+            <select id ='domain-js' name="include_domain">
+
+            </select>
+        </div>
+        <div class="input-holder">
+            <input type="submit" value="submit" name="submit">
+        </div>
+        </div>
+    </form>
+</body>
+
+</html>

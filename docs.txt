@@ -1,0 +1,26 @@
+search -- ajax -- folder search, tag search, by website search, any link title search
+add -- sql + python -- redirection to link history
+link history page -- contains all the data of the link
+folders , tags, added data,by website - sort functionality load top 10 folders by default & rest using ajax after load completes
+edit -- tag, folder
+grouping to By website regex js for the input website string
+delete -- in bin for 30 days
+
+-- add methodology --
+    while typing the folder and tag names fetch the relevant names using ajax
+    auto detect website domain and add it to the list -- if sub domain exists give user the authority to decide continue with the domain or sub-domain
+    -- upgrade ajax live load to json search(load as a json file locally & search through it)
+
+-- php my admin --
+    user name: manoj
+    host name: %
+    password: manoj@admin12
+    J5]335GfZ_iMBI)/
+
+--during account creation
+    create all name<var> tables
+
+
+--sql statement execution in php variables
+    if variable is a integer use backslashes around it `$varaible_name`
+    if variable is a string use singlequotes &concatate the varaible '".$url."
